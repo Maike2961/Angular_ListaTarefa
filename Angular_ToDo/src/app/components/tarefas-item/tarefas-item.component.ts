@@ -24,6 +24,7 @@ export class TarefasItemComponent {
   faTimes = faTimes
 
   onDelete(tarefa: Tarefa){
+    console.log(tarefa)
     this.onDeleteTask.emit(tarefa)
   }
 

@@ -32,6 +32,7 @@ export class TarefasComponent implements OnInit {
   }
 
   deleteTask(tarefa: Tarefa) {
+    console.log(tarefa)
     this.tarefaService.deleteTarefa(tarefa).subscribe(() => (
       this.tarefas = this.tarefas.filter((t) => t.id !== tarefa.id))
     );

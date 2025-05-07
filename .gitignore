@@ -7,7 +7,7 @@
 /bazel-out
 
 # Node
-/node_modules
+node_modules/
 npm-debug.log
 yarn-error.log
 
@@ -40,3 +40,32 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#angular
+
+Angular_ToDo/node_modules/
+Angular_ToDo/dist/
+Angular_ToDo/.angular/
+Angular_ToDo/.angular/cache/
+Angular_ToDo/.angular/config.json
+Angular_ToDo/.vscode/
+Angular_ToDo/.env
+Angular_ToDo/.env.*
+
+Angular_ToDo/out-tsc/
+Angular_ToDo/coverage/
+Angular_ToDo/test-output/
+Angular_ToDo/.sass-cache/
+
+#node
+
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+backend/.vscode/
+backend/coverage/
+backend/temp/
+backend/tmp/
+backend/*.tsbuildinfo
+backend/*.log
